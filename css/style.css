@@ -1,4 +1,45 @@
 .header {
   border: 1px solid #ff0000;
-  height: 150px;
+  height: 100px;
+}
+.header-wrapper {
+  width: 70%;
+  height: 100%;
+  margin: 0 auto;
+  border: 1px solid #ff0000;
+}
+.header-wrapper-logo {
+  border: 1px solid #ff0000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100%;
+}
+.header-wrapper-logo img {
+  height: 100%;
+  border: 1px solid #ff0000;
+}
+.header-wrapper-contacts {
+  border: 1px solid #ff0000;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.header-wrapper-contacts img {
+  height: 70%;
+  margin-right: 20px;
+}
+.header-wrapper-contacts span {
+  font-size: 2.5rem;
+  font-weight: bolder;
 }
