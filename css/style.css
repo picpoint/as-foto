@@ -9,7 +9,7 @@
   height: 100px;
 }
 .header-wrapper {
-  width: 70%;
+  width: 80%;
   height: 100%;
   margin: 0 auto;
   border: 1px solid #ff0000;
@@ -25,7 +25,7 @@
   height: 100%;
 }
 .header-wrapper-logo img {
-  height: 100%;
+  width: 80%;
   border: 1px solid #ff0000;
 }
 .header-wrapper-contacts {
@@ -39,14 +39,15 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   border: 1px solid #ff0000;
   height: 50%;
 }
 .header-wrapper-contacts-phone img {
   height: 80%;
+  margin-right: 20px;
 }
 .header-wrapper-contacts-phone span {
   font-size: 2rem;
@@ -61,17 +62,33 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
 }
 .header-wrapper-contacts-email img {
   height: 80%;
+  margin-right: 20px;
 }
 .header-wrapper-contacts-email span {
   font-size: 2rem;
   font-weight: bolder;
 }
-.header-wrapper .header-wrapper-contacts {
-  padding: 0;
+.menu {
+  height: 50px;
+  border: 1px solid #ff0000;
+}
+.menu-list {
+  border: 1px solid #ff0000;
+}
+.menu-list li {
+  display: inline-block;
+  list-style-type: none;
+}
+.menu-list li a {
+  text-decoration: none;
+}
+.slider {
+  border: 1px solid #ff0000;
+  height: 700px;
 }
