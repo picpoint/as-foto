@@ -5,17 +5,15 @@
           box-sizing: border-box;
 }
 .header {
-  border: 1px solid #ff0000;
   height: 100px;
+  font-family: 'Exo 2', sans-serif;
 }
 .header-wrapper {
   width: 80%;
   height: 100%;
   margin: 0 auto;
-  border: 1px solid #ff0000;
 }
 .header-wrapper-logo {
-  border: 1px solid #ff0000;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -25,12 +23,11 @@
   height: 100%;
 }
 .header-wrapper-logo img {
-  width: 80%;
-  border: 1px solid #ff0000;
+  width: 70%;
 }
 .header-wrapper-contacts {
   height: 100%;
-  color: #bababa;
+  color: #807e7b;
 }
 .header-wrapper-contacts-phone {
   display: -webkit-box;
@@ -42,7 +39,6 @@
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
-  border: 1px solid #ff0000;
   height: 50%;
 }
 .header-wrapper-contacts-phone img {
@@ -54,7 +50,6 @@
   font-weight: bolder;
 }
 .header-wrapper-contacts-email {
-  border: 1px solid #ff0000;
   height: 50%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -74,19 +69,54 @@
   font-size: 2rem;
   font-weight: bolder;
 }
+.header-wrapper .header-wrapper-contacts,
+.header-wrapper .header-wrapper-logo {
+  padding: 0;
+}
 .menu {
   height: 50px;
-  border: 1px solid #ff0000;
+  font-family: 'Exo 2', sans-serif;
+  background-color: #ff7e00;
 }
-.menu-list {
-  border: 1px solid #ff0000;
+.menu-wrapper {
+  width: 80%;
+  margin: 0 auto;
 }
-.menu-list li {
-  display: inline-block;
+.menu-wrapper-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 50px;
+}
+.menu-wrapper-list li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   list-style-type: none;
+  height: 100%;
 }
-.menu-list li a {
+.menu-wrapper-list li a {
+  -ms-flex-line-pack: center;
+      align-content: center;
   text-decoration: none;
+  font-size: 2rem;
+  padding: 10px 20px;
+  color: white;
+  -webkit-transition: ease-out 0.5s;
+  transition: ease-out 0.5s;
+}
+.menu-wrapper-list li a:hover {
+  background-color: white;
+  color: #ff7e00;
+  border-radius: 5px;
+  -webkit-transition: ease-out 0.5s;
+  transition: ease-out 0.5s;
 }
 .slider {
   border: 1px solid #ff0000;
