@@ -1,5 +1,11 @@
 @border-marker: 1px solid red;
+@gray-color: #bababa;
 
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
 
 
 .header {
@@ -22,20 +28,46 @@
 						}
 				}
 				&-contacts {
-					border: @border-marker;
 					height: 100%;
-					display: flex;
-					align-items: center;
-					justify-content: center;
+					color: @gray-color;
+					&-phone {
+						display: flex;
+						align-items: center;
+						justify-content: center;
+						border: @border-marker;
+						height: 50%;
 						img {
-							height: 70%;
-							margin-right: 20px;
+							height: 80%;
+							//margin-left: 40px;
+							//padding-right: 20px;
 						}
 						span {
-							font-size: 2.5rem;
+							font-size: 2rem;
 							font-weight: bolder;
 						}
+					}
+					&-email {
+						border: @border-marker;
+						height: 50%;
+						display: flex;
+						align-items: center;
+						justify-content: center;
+						img {
+							height: 80%;
+							//margin-left: 40px;
+							//padding-right: 20px;
+						}
+						span {
+							font-size: 2rem;
+							font-weight: bolder;
+						}
+					}
 				}
+
+			.header-wrapper-contacts {
+				padding: 0;
+			}
+
 		}
 
 }
