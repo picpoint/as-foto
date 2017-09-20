@@ -120,5 +120,17 @@
 }
 .slider {
   border: 1px solid #ff0000;
-  height: 700px;
+  height: 500px;
+}
+.slider .carousel {
+  height: 100%;
+}
+.slider .carousel .carousel-inner {
+  height: 100%;
+}
+.slider .carousel .carousel-inner .item img {
+  width: 100%;
+}
+.row div {
+  padding: 0;
 }

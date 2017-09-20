@@ -132,8 +132,25 @@
 
 .slider {
 	border: @border-marker;
-	height: 700px;
-
+	height: 500px;
+		.carousel {
+			//border: @border-marker;
+			height: 100%;
+			.carousel-inner {
+				height: 100%;
+					.item {
+						img {
+							width: 100%;
+						}
+					}
+			}
+		}
 }
+
+.row div {
+	padding: 0;
+}
+
+
 
 // <!-- SLIDER STOP-->
