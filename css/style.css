@@ -120,7 +120,6 @@
   transition: ease-out 0.5s;
 }
 .slider {
-  border: 1px solid #ff0000;
   height: 500px;
 }
 .slider .carousel {
