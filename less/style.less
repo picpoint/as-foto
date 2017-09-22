@@ -133,10 +133,10 @@
 
 .slider {
 	//border: @border-marker;
-	height: 500px;
+	height: 515px;
 		.carousel {
 			//border: @border-marker;
-			height: auto;
+			height: 100%;
 			.carousel-inner {
 				height: 100%;
 					.item {
@@ -152,6 +152,39 @@
 	padding: 0;
 }
 
-
-
 // <!-- SLIDER STOP-->
+
+//<!--********************-->
+
+// <!-- PHOTOPRINT START-->
+
+.photoprint {
+	border: @border-marker;
+	height: 700px;
+		&-price {
+			height: 100%;
+			border: @border-marker;
+			color: @orange-color;
+				h1 {
+					font-family: 'Exo 2', sans-serif;
+					//color: @orange-color;
+					font-weight: bolder;
+					text-align: center;
+				}
+				span {
+
+				}
+		}
+		&-pict {
+			height: 100%;
+			border: @border-marker;
+				img {
+					border: @border-marker;
+					position: relative;
+					float: right;
+					width: 200%;
+				}
+		}
+}
+
+// <!-- PHOTOPRINT STOP-->
