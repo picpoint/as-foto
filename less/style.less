@@ -159,27 +159,55 @@
 // <!-- PHOTOPRINT START-->
 
 .photoprint {
-	border: @border-marker;
-	height: 700px;
+	//border: @border-marker;
+	height: auto;
+	box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.7);
 		&-price {
 			height: 100%;
-			border: @border-marker;
+			//border: @border-marker;
 			color: @orange-color;
+			text-align: center;
 				h1 {
 					font-family: 'Exo 2', sans-serif;
 					//color: @orange-color;
 					font-weight: bolder;
 					text-align: center;
+					margin-top: 50px;
+				}
+				&-table {
+					border: 1px solid orangered;
+					width: 75%;
+					margin: 0 auto;
+					margin-top: 50px;
+					font-family: 'Exo 2', sans-serif;
+						tr {
+							border: 1px solid gray;
+								th {
+									text-align: center;
+									font-size: 3rem;
+									background-color: #d1d1d1;
+									border: 1px solid gray;
+								}
+								td {
+									text-align: center;
+									font-size: 2rem;
+									border: 1px solid gray;
+								}
+							&:nth-child(odd) {
+								background-color: #ededed;
+							}
+						}
 				}
 				span {
-
+					display: block;
+					margin-top: 20px;
 				}
 		}
 		&-pict {
 			height: 100%;
-			border: @border-marker;
+			//border: @border-marker;
 				img {
-					border: @border-marker;
+					//border: @border-marker;
 					position: relative;
 					float: right;
 					width: 200%;
@@ -188,3 +216,22 @@
 }
 
 // <!-- PHOTOPRINT STOP-->
+
+// ***************************
+
+// <!--DOCPHOTO START-->
+
+.docphoto {
+	height: 700px;
+	border: @border-marker;
+		&-pict {
+			border: @border-marker;
+			height: 100%;
+		}
+		&-price {
+			border: @border-marker;
+			height: 100%;
+		}
+}
+
+// <!--DOCPHOTO STOP-->

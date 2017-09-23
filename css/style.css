@@ -135,26 +135,66 @@
   padding: 0;
 }
 .photoprint {
-  border: 1px solid #ff0000;
-  height: 700px;
+  height: auto;
+  -webkit-box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.7);
+          box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.7);
 }
 .photoprint-price {
   height: 100%;
-  border: 1px solid #ff0000;
   color: #ff7e00;
+  text-align: center;
 }
 .photoprint-price h1 {
   font-family: 'Exo 2', sans-serif;
   font-weight: bolder;
   text-align: center;
+  margin-top: 50px;
+}
+.photoprint-price-table {
+  border: 1px solid orangered;
+  width: 75%;
+  margin: 0 auto;
+  margin-top: 50px;
+  font-family: 'Exo 2', sans-serif;
+}
+.photoprint-price-table tr {
+  border: 1px solid gray;
+}
+.photoprint-price-table tr th {
+  text-align: center;
+  font-size: 3rem;
+  background-color: #d1d1d1;
+  border: 1px solid gray;
+}
+.photoprint-price-table tr td {
+  text-align: center;
+  font-size: 2rem;
+  border: 1px solid gray;
+}
+.photoprint-price-table tr:nth-child(odd) {
+  background-color: #ededed;
+}
+.photoprint-price span {
+  display: block;
+  margin-top: 20px;
 }
 .photoprint-pict {
   height: 100%;
-  border: 1px solid #ff0000;
 }
 .photoprint-pict img {
-  border: 1px solid #ff0000;
   position: relative;
   float: right;
   width: 200%;
+}
+.docphoto {
+  height: 700px;
+  border: 1px solid #ff0000;
+}
+.docphoto-pict {
+  border: 1px solid #ff0000;
+  height: 100%;
+}
+.docphoto-price {
+  border: 1px solid #ff0000;
+  height: 100%;
 }
