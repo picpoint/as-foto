@@ -228,3 +228,13 @@
 .docphoto-price-table tr:nth-child(odd) {
   background-color: #ededed;
 }
+.souvenir {
+  border: 1px solid #ff0000;
+  height: 500px;
+}
+.souvenir h1 {
+  font-family: 'Exo 2', sans-serif;
+  font-weight: bolder;
+  text-align: center;
+  margin-top: 40px;
+}
