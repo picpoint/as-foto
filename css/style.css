@@ -3,6 +3,7 @@
   margin: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  color: #ff7e00;
 }
 .header {
   height: 100px;
@@ -151,7 +152,6 @@
   margin-top: 50px;
 }
 .photoprint-price-table {
-  border: 1px solid orangered;
   width: 75%;
   margin: 0 auto;
   margin-top: 50px;
@@ -187,14 +187,44 @@
   width: 200%;
 }
 .docphoto {
-  height: 700px;
-  border: 1px solid #ff0000;
+  height: auto;
 }
 .docphoto-pict {
-  border: 1px solid #ff0000;
   height: 100%;
 }
+.docphoto-pict img {
+  display: block;
+  margin: 20px auto;
+  padding: 30px 0;
+}
 .docphoto-price {
-  border: 1px solid #ff0000;
   height: 100%;
+  font-family: 'Exo 2', sans-serif;
+}
+.docphoto-price h1 {
+  font-weight: bolder;
+  text-align: center;
+  margin-top: 50px;
+}
+.docphoto-price-table {
+  width: 75%;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.docphoto-price-table tr {
+  border: 1px solid gray;
+}
+.docphoto-price-table tr th {
+  text-align: center;
+  font-size: 3rem;
+  background-color: #d1d1d1;
+  border: 1px solid gray;
+}
+.docphoto-price-table tr td {
+  text-align: center;
+  font-size: 2rem;
+  border: 1px solid gray;
+}
+.docphoto-price-table tr:nth-child(odd) {
+  background-color: #ededed;
 }
