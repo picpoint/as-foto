@@ -2,14 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2d7fe65-e365-4ed7-8414-f89cd4b132c1" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/10005035b.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/1316702122.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/docphotosample.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/np.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/panaram01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/panaram02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/panaram03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/фотонадокиновое_01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/-на подушке сумы.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/0101671001353496988.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/11-чехол.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/1370599514_podushka-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/149416.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/170205131524_5 (1).jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/170205131524_5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/292619714_w640_h640___.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/5_brelokov.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/816_0.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/819ddb.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/Phone-Case-Printer-PCP-Rental-Sample (1).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/Phone-Case-Printer-PCP-Rental-Sample.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/brelki-na-svadbu-big.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/chehol-s-mayklom-geksonom-iphone-4-iphone-4s (1).jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/cup.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/depositphotos_24931059-stock-photo-blank-backdrop-and-two-softboxes.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/festival-of-colors-berlin.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/fon96.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/iphone_6_constr_label-600x600.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/krugka13.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/merelin.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/mug_1-800x800-wm.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/nexuscustomlivecases.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/pillow2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/printer1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/risunok1_2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/shutterstock_116476426.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/zenit.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/красивые фото бабочек2.jpg" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/docphotoimg.png" afterPath="$PROJECT_DIR$/img/docphotoimg.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/docphotoimg.psd" afterPath="$PROJECT_DIR$/img/docphotoimg.psd" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/describe/additions.txt" afterPath="$PROJECT_DIR$/describe/additions.txt" />
@@ -31,8 +56,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="633">
-              <caret line="239" column="34" lean-forward="false" selection-start-line="239" selection-start-column="34" selection-end-line="239" selection-end-column="34" />
+            <state relative-caret-position="610">
+              <caret line="243" column="42" lean-forward="true" selection-start-line="243" selection-start-column="42" selection-end-line="243" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -41,8 +66,8 @@
       <file leaf-file-name="style.less" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/less/style.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="784">
-              <caret line="282" column="19" lean-forward="false" selection-start-line="282" selection-start-column="19" selection-end-line="282" selection-end-column="19" />
+            <state relative-caret-position="763">
+              <caret line="295" column="23" lean-forward="false" selection-start-line="295" selection-start-column="23" selection-end-line="295" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -75,8 +100,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1" />
-    <option name="y" value="24" />
+    <option name="x" value="-1422" />
     <option name="width" value="1922" />
     <option name="height" value="1033" />
   </component>
@@ -98,6 +122,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -108,18 +133,12 @@
             <path>
               <item name="as-foto" type="b2602c69:ProjectViewProjectNode" />
               <item name="as-foto" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="as-foto" type="b2602c69:ProjectViewProjectNode" />
-              <item name="as-foto" type="462c0819:PsiDirectoryNode" />
               <item name="less" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -128,6 +147,7 @@
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -167,17 +187,19 @@
       <workItem from="1506242526858" duration="1143000" />
       <workItem from="1506271760204" duration="1086000" />
       <workItem from="1506283568724" duration="1093000" />
+      <workItem from="1506317232391" duration="1838000" />
+      <workItem from="1506331274459" duration="1494000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40225000" />
+    <option name="totallyTimeSpent" value="43557000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="24" width="1922" height="1033" extended-state="6" />
+    <frame x="-1288" y="-8" width="1296" height="1040" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12552084" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1265625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -206,6 +228,38 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3984">
+          <caret line="249" column="7" lean-forward="false" selection-start-line="249" selection-start-column="7" selection-end-line="249" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less/style.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3904">
+          <caret line="244" column="15" lean-forward="true" selection-start-line="244" selection-start-column="15" selection-end-line="244" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2544">
+          <caret line="159" column="7" lean-forward="false" selection-start-line="159" selection-start-column="7" selection-end-line="159" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less/style.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3024">
+          <caret line="189" column="19" lean-forward="false" selection-start-line="189" selection-start-column="19" selection-end-line="189" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -450,19 +504,34 @@
     <entry file="file://$PROJECT_DIR$/img/email.png" />
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="633">
-          <caret line="239" column="34" lean-forward="false" selection-start-line="239" selection-start-column="34" selection-end-line="239" selection-end-column="34" />
+        <state relative-caret-position="610">
+          <caret line="243" column="42" lean-forward="true" selection-start-line="243" selection-start-column="42" selection-end-line="243" selection-end-column="42" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/less/style.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="784">
-          <caret line="282" column="19" lean-forward="false" selection-start-line="282" selection-start-column="19" selection-end-line="282" selection-end-column="19" />
+        <state relative-caret-position="763">
+          <caret line="295" column="23" lean-forward="false" selection-start-line="295" selection-start-column="23" selection-end-line="295" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

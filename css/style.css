@@ -230,11 +230,29 @@
 }
 .souvenir {
   border: 1px solid #ff0000;
-  height: 500px;
+  height: 800px;
 }
 .souvenir h1 {
   font-family: 'Exo 2', sans-serif;
   font-weight: bolder;
   text-align: center;
   margin-top: 40px;
+}
+.souvenir-cup1 {
+  height: 400px;
+  border: 1px solid #ff0000;
+}
+.souvenir-cup1 img {
+  height: 100%;
+}
+.souvenir-cup2 {
+  height: 400px;
+  border: 1px solid #ff0000;
+}
+.souvenir-cup2 img {
+  height: 100%;
+}
+.souvenir-pillow {
+  height: 400px;
+  border: 1px solid #ff0000;
 }
