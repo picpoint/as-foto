@@ -5,6 +5,14 @@
           box-sizing: border-box;
   color: #ff7e00;
 }
+.center {
+  display: block;
+  margin: 0 auto;
+}
+.souvenir-span {
+  font-weight: bolder;
+  font-size: 2.5rem;
+}
 .header {
   height: 100px;
   font-family: 'Exo 2', sans-serif;
@@ -229,30 +237,85 @@
   background-color: #ededed;
 }
 .souvenir {
-  border: 1px solid #ff0000;
-  height: 800px;
+  height: auto;
+  font-family: 'Exo 2', sans-serif;
+  -webkit-box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.7);
+          box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.7);
 }
 .souvenir h1 {
-  font-family: 'Exo 2', sans-serif;
   font-weight: bolder;
   text-align: center;
-  margin-top: 40px;
+  margin: 100px 0 50px 0;
 }
-.souvenir-cup1 {
+.souvenir-block1 {
+  height: auto;
+  text-align: center;
+}
+.souvenir-block1-cup1 {
   height: 400px;
-  border: 1px solid #ff0000;
 }
-.souvenir-cup1 img {
+.souvenir-block1-cup1 img {
   height: 100%;
 }
-.souvenir-cup2 {
+.souvenir-block1-cup2 {
   height: 400px;
-  border: 1px solid #ff0000;
 }
-.souvenir-cup2 img {
+.souvenir-block1-cup2 img {
   height: 100%;
 }
-.souvenir-pillow {
+.souvenir-block1-pillow {
   height: 400px;
+}
+.souvenir-block1-pillow img {
+  height: 100%;
+}
+.souvenir-block2 {
+  height: auto;
+  margin-top: 100px;
+  text-align: center;
+}
+.souvenir-block2-case {
+  height: 400px;
+}
+.souvenir-block2-case img {
+  height: 100%;
+}
+.souvenir-block2-trinket {
+  height: 400px;
+}
+.souvenir-block2-trinket img {
+  height: 100%;
+}
+.souvenir-block2-puzzles {
+  height: 400px;
+}
+.souvenir-block2-puzzles img {
+  height: 100%;
+}
+.souvenir-block3 {
+  height: auto;
+  margin: 100px 0;
+  text-align: center;
+}
+.souvenir-block3-magnits {
+  height: 400px;
+}
+.souvenir-block3-magnits img {
+  height: 100%;
+}
+.souvenir-block3-shar {
+  height: 400px;
+}
+.souvenir-block3-shar img {
+  height: 100%;
+}
+.souvenir-block3-cover {
+  height: 400px;
+}
+.souvenir-block3-cover img {
+  height: 100%;
+}
+.photoproduct {
   border: 1px solid #ff0000;
+  height: 500px;
 }

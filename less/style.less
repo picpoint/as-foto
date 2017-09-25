@@ -11,6 +11,15 @@
 	color: @orange-color;
 }
 
+.center {
+	display: block;
+	margin: 0 auto;
+}
+
+.souvenir-span {
+	font-weight: bolder;
+	font-size: 2.5rem;
+}
 
 // <!-- HEADER  START-->
 .header {
@@ -274,32 +283,113 @@
 // <!--SOUVENIR START-->
 
 .souvenir {
-	border: @border-marker;
-	height: 800px;
+	//border: @border-marker;
+	height: auto;
+	font-family: 'Exo 2', sans-serif;
+	box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.7);
 		h1 {
-			font-family: 'Exo 2', sans-serif;
 			font-weight: bolder;
 			text-align: center;
-			margin-top: 40px;
+			margin: 100px 0 50px 0;
 		}
-		&-cup1 {
-			height: 400px;
-			border: @border-marker;
+		&-block1 {
+			height: auto;
+			text-align: center;
+			&-cup1 {
+				height: 400px;
+				//border: @border-marker;
+				//text-align: center;
 				img {
+					//border: @border-marker;
 					height: 100%;
 				}
-		}
-		&-cup2 {
-			height: 400px;
-			border: @border-marker;
+			}
+			&-cup2 {
+				height: 400px;
+				//border: @border-marker;
+				//text-align: center;
 				img {
 					height: 100%;
+					//border: @border-marker;
+				}
+			}
+			&-pillow {
+				height: 400px;
+				//border: @border-marker;
+				//text-align: center;
+				img {
+					height: 100%;
+					//border: @border-marker;
+				}
+			}
+		}
+		&-block2 {
+			//border: @border-marker;
+			height: auto;
+			margin-top: 100px;
+			text-align: center;
+				&-case {
+					//border: @border-marker;
+					height: 400px;
+						img {
+							height: 100%;
+						}
+				}
+				&-trinket {
+					//border: @border-marker;
+					height: 400px;
+						img {
+							height: 100%;
+						}
+				}
+				&-puzzles {
+					//border: @border-marker;
+					height: 400px;
+						img {
+							height: 100%;
+						}
 				}
 		}
-		&-pillow {
-			height: 400px;
-			border: @border-marker;
+		&-block3 {
+			height: auto;
+			//border: @border-marker;
+			margin: 100px 0;
+			text-align: center;
+				&-magnits {
+					//border: @border-marker;
+					height: 400px;
+						img {
+							height: 100%;
+						}
+				}
+				&-shar {
+					//border: @border-marker;
+					height: 400px;
+						img {
+							height: 100%;
+						}
+				}
+				&-cover {
+					//border: @border-marker;
+					height: 400px;
+						img {
+							height: 100%;
+						}
+				}
 		}
+
+
 }
 
 // <!--SOUVENIR STOP-->
+
+// ***********************
+
+// <!-- PHOTOPRODUCT START-->
+
+.photoproduct {
+	border: @border-marker;
+	height: 500px;
+}
+
+// <!-- PHOTOPRODUCT STOP-->
