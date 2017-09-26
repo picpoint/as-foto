@@ -317,5 +317,76 @@
 }
 .photoproduct {
   border: 1px solid #ff0000;
-  height: 500px;
+  height: 1300px;
+  font-family: 'Exo 2', sans-serif;
+}
+.photoproduct h1 {
+  font-weight: bolder;
+  text-align: center;
+  margin: 100px 0 50px 0;
+}
+.photoproduct-framesone {
+  border: 1px solid #ff0000;
+  height: 400px;
+}
+.photoproduct-framesone-frm01 {
+  height: 100%;
+  border: 1px solid #ff0000;
+}
+.photoproduct-framesone-frm01 img {
+  height: 100%;
+}
+.photoproduct-framesone-frm02 {
+  height: 100%;
+  border: 1px solid #ff0000;
+}
+.photoproduct-framesone-frm02 img {
+  height: 100%;
+}
+.photoproduct-framesone-frm03 {
+  height: 100%;
+  border: 1px solid #ff0000;
+}
+.photoproduct-framesone-frm03 img {
+  height: 100%;
+}
+.photoproduct-framesone-frm04 {
+  height: 100%;
+  border: 1px solid #ff0000;
+}
+.photoproduct-framesone-frm04 img {
+  height: 100%;
+}
+.photoproduct-framestwo {
+  border: 1px solid #ff0000;
+  margin-top: 100px;
+  height: 400px;
+}
+.photoproduct-framestwo-frm01 {
+  height: 100%;
+  border: 1px solid #ff0000;
+}
+.photoproduct-framestwo-frm01 img {
+  height: 100%;
+}
+.photoproduct-framestwo-frm02 {
+  height: 100%;
+  border: 1px solid #ff0000;
+}
+.photoproduct-framestwo-frm02 img {
+  height: 100%;
+}
+.photoproduct-framestwo-frm03 {
+  height: 100%;
+  border: 1px solid #ff0000;
+}
+.photoproduct-framestwo-frm03 img {
+  height: 100%;
+}
+.photoproduct-framestwo-frm04 {
+  height: 100%;
+  border: 1px solid #ff0000;
+}
+.photoproduct-framestwo-frm04 img {
+  height: 100%;
 }
