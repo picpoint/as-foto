@@ -456,3 +456,26 @@
   margin-top: 50px;
   font-weight: bolder;
 }
+.photoservices-table {
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 50px;
+  font-family: 'Exo 2', sans-serif;
+}
+.photoservices-table tr {
+  border: 1px solid gray;
+}
+.photoservices-table tr th {
+  text-align: center;
+  font-size: 3rem;
+  background-color: #d1d1d1;
+  border: 1px solid gray;
+}
+.photoservices-table tr td {
+  text-align: center;
+  font-size: 2rem;
+  border: 1px solid gray;
+}
+.photoservices-table tr:nth-child(odd) {
+  background-color: #ededed;
+}
