@@ -2,7 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2d7fe65-e365-4ed7-8414-f89cd4b132c1" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/albums/1012553163.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/albums/8sq2qpxcz5114cqb-1000x1000.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/albums/9dd7fbbf94a0e3fc77a6d186e2df778a.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/albums/product_img_2375-1024x1024.jpg" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/souvenir/cup/cup02.png" afterPath="$PROJECT_DIR$/img/souvenir/cup/cup02.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/souvenir/pillow/pillow2.png" afterPath="$PROJECT_DIR$/img/souvenir/pillow/pillow2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/souvenir/pillow/pillow2.psd" afterPath="$PROJECT_DIR$/img/souvenir/pillow/pillow2.psd" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/style.less" afterPath="$PROJECT_DIR$/less/style.less" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,22 +26,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="741">
-              <caret line="335" column="7" lean-forward="false" selection-start-line="335" selection-start-column="7" selection-end-line="335" selection-end-column="7" />
+            <state relative-caret-position="592">
+              <caret line="368" column="41" lean-forward="true" selection-start-line="368" selection-start-column="41" selection-end-line="368" selection-end-column="41" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.less" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style.less" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/less/style.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="443" column="33" lean-forward="true" selection-start-line="443" selection-start-column="33" selection-end-line="443" selection-end-column="33" />
+            <state relative-caret-position="826">
+              <caret line="557" column="26" lean-forward="false" selection-start-line="557" selection-start-column="26" selection-end-line="557" selection-end-column="26" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-7688">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1506523970529" expanded="true" signature="5947:5951" ph="{...}" />
+                <marker date="1506523970529" expanded="true" signature="8053:8071" ph="{...}" />
+                <marker date="1506523970529" expanded="true" signature="8106:8125" ph="{...}" />
+                <marker date="1506523970529" expanded="true" signature="8141:8321" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -62,7 +87,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-1540" />
     <option name="y" value="145" />
     <option name="width" value="1920" />
@@ -86,14 +111,17 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="as-foto" type="b2602c69:ProjectViewProjectNode" />
               <item name="as-foto" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="as-foto" type="b2602c69:ProjectViewProjectNode" />
+              <item name="as-foto" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="as-foto" type="b2602c69:ProjectViewProjectNode" />
@@ -110,6 +138,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -165,14 +195,16 @@
       <workItem from="1506402705367" duration="2220000" />
       <workItem from="1506435801490" duration="1702000" />
       <workItem from="1506453762088" duration="230000" />
+      <workItem from="1506490199945" duration="3795000" />
+      <workItem from="1506521203872" duration="2863000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55308000" />
+    <option name="totallyTimeSpent" value="61966000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1540" y="145" width="1922" height="1033" extended-state="7" />
+    <frame x="-1288" y="-8" width="1296" height="1040" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.115625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -574,18 +606,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/style.less" />
     <entry file="file://$PROJECT_DIR$/img/email.png" />
-    <entry file="file://$PROJECT_DIR$/less/style.less">
+    <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="443" column="33" lean-forward="true" selection-start-line="443" selection-start-column="33" selection-end-line="443" selection-end-column="33" />
-          <folding />
+        <state relative-caret-position="-7688">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1506523970529" expanded="true" signature="5947:5951" ph="{...}" />
+            <marker date="1506523970529" expanded="true" signature="8053:8071" ph="{...}" />
+            <marker date="1506523970529" expanded="true" signature="8106:8125" ph="{...}" />
+            <marker date="1506523970529" expanded="true" signature="8141:8321" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="741">
-          <caret line="335" column="7" lean-forward="false" selection-start-line="335" selection-start-column="7" selection-end-line="335" selection-end-column="7" />
+        <state relative-caret-position="592">
+          <caret line="368" column="41" lean-forward="true" selection-start-line="368" selection-start-column="41" selection-end-line="368" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less/style.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="826">
+          <caret line="557" column="26" lean-forward="false" selection-start-line="557" selection-start-column="26" selection-end-line="557" selection-end-column="26" />
           <folding />
         </state>
       </provider>
