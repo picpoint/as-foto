@@ -2,10 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2d7fe65-e365-4ed7-8414-f89cd4b132c1" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/baner-print.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/baner-print.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/doc-photo.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/docphotoimg.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/logo.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/souvenir.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/souvenir/pillow/pillow2.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/souvenir/puzzle/pazlmag3.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/souvenir/shar/578_content.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/souvenir/trinket/trinket01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/souvenir/trinket/trinket02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/souvenir/trinket/trinket02.psd" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/albums/02.png" afterPath="$PROJECT_DIR$/img/albums/02.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/dph.jpg" afterPath="$PROJECT_DIR$/img/dph.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/frame/120A-2171.png" afterPath="$PROJECT_DIR$/img/frame/120A-2171.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/frame/200-1560.png" afterPath="$PROJECT_DIR$/img/frame/200-1560.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/frame/20003-4.png" afterPath="$PROJECT_DIR$/img/frame/20003-4.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/frame/20024-1.png" afterPath="$PROJECT_DIR$/img/frame/20024-1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/frame/20034-1.png" afterPath="$PROJECT_DIR$/img/frame/20034-1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/frame/2300B-026.png" afterPath="$PROJECT_DIR$/img/frame/2300B-026.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/frame/2300B-046.png" afterPath="$PROJECT_DIR$/img/frame/2300B-046.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/frame/2503B-012J3.png" afterPath="$PROJECT_DIR$/img/frame/2503B-012J3.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/souvenir.jpg" afterPath="$PROJECT_DIR$/img/souvenir.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/souvenir/cup/cup01.png" afterPath="$PROJECT_DIR$/img/souvenir/cup/cup01.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/souvenir/cup/cup02.png" afterPath="$PROJECT_DIR$/img/souvenir/cup/cup02.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/souvenir/magnits/magnit.png" afterPath="$PROJECT_DIR$/img/souvenir/magnits/magnit.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/souvenir/puzzle/puzzles.png" afterPath="$PROJECT_DIR$/img/souvenir/puzzle/puzzles.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/souvenir/shar/ball.jpg" afterPath="$PROJECT_DIR$/img/souvenir/shar/ball.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/souvenir/trinket/trinket.png" afterPath="$PROJECT_DIR$/img/souvenir/trinket/trinket.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/style.less" afterPath="$PROJECT_DIR$/less/style.less" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,21 +46,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
-              <caret line="539" column="66" lean-forward="true" selection-start-line="539" selection-start-column="66" selection-end-line="539" selection-end-column="66" />
+            <state relative-caret-position="486">
+              <caret line="81" column="41" lean-forward="false" selection-start-line="81" selection-start-column="41" selection-end-line="81" selection-end-column="41" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.less" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.less" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/less/style.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="754">
-              <caret line="621" column="2" lean-forward="false" selection-start-line="621" selection-start-column="2" selection-end-line="621" selection-end-column="2" />
+            <state relative-caret-position="10602">
+              <caret line="589" column="0" lean-forward="false" selection-start-line="589" selection-start-column="0" selection-end-line="589" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -57,8 +84,8 @@
       <list>
         <option value="$PROJECT_DIR$/less/map.js" />
         <option value="$PROJECT_DIR$/js/map.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/less/style.less" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -92,8 +119,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -175,11 +202,13 @@
       <workItem from="1506534243260" duration="1769000" />
       <workItem from="1506576484041" duration="4419000" />
       <workItem from="1506607965282" duration="2438000" />
+      <workItem from="1506663691425" duration="1209000" />
+      <workItem from="1506695190177" duration="652000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70592000" />
+    <option name="totallyTimeSpent" value="72453000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1288" y="-8" width="1296" height="1040" extended-state="6" />
@@ -572,7 +601,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
           <caret line="24" column="22" lean-forward="true" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -581,22 +609,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="30" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less/style.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10602">
+          <caret line="589" column="0" lean-forward="false" selection-start-line="589" selection-start-column="0" selection-end-line="589" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="539" column="66" lean-forward="true" selection-start-line="539" selection-start-column="66" selection-end-line="539" selection-end-column="66" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/less/style.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="754">
-          <caret line="621" column="2" lean-forward="false" selection-start-line="621" selection-start-column="2" selection-end-line="621" selection-end-column="2" />
+        <state relative-caret-position="486">
+          <caret line="81" column="41" lean-forward="false" selection-start-line="81" selection-start-column="41" selection-end-line="81" selection-end-column="41" />
           <folding />
         </state>
       </provider>
