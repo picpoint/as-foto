@@ -487,6 +487,8 @@
   font-family: 'Exo 2', sans-serif;
 }
 .contacts-communications {
+  background: -webkit-gradient(linear, left bottom, left top, from(#26272b), color-stop(#3f4147), to(#26272b));
+  background: linear-gradient(to top, #26272b, #3f4147, #26272b);
   height: 100%;
 }
 .contacts-communications span {
