@@ -32,7 +32,7 @@
 			margin: 0 auto;
 			//border: @border-marker;
 				&-logo {
-					//border: @border-marker;
+					border: @border-marker;
 					display: flex;
 					//align-items: center;
 					justify-content: center;
@@ -45,6 +45,7 @@
 				&-contacts {
 					height: 100%;
 					color: @gray-color;
+					border: @border-marker;
 					&-phone {
 						display: flex;
 						align-items: center;
@@ -143,7 +144,7 @@
 
 .slider {
 	//border: @border-marker;
-	height: 515px;
+	height: auto;
 		.carousel {
 			//border: @border-marker;
 			height: 100%;
@@ -195,16 +196,21 @@
 									font-size: 3rem;
 									background-color: #d1d1d1;
 									border: 1px solid gray;
+									padding: 3px;
 								}
 								td {
 									text-align: center;
 									font-size: 2rem;
 									border: 1px solid gray;
+									padding: 3px;
 								}
 							&:nth-child(odd) {
 								background-color: #ededed;
 							}
 						}
+					&:last-child {
+						margin-bottom: 70px;
+					}
 				}
 				span {
 					display: block;
@@ -262,11 +268,13 @@
 							font-size: 3rem;
 							background-color: #d1d1d1;
 							border: 1px solid gray;
+							padding: 3px;
 						}
 						td {
 							text-align: center;
 							font-size: 2rem;
 							border: 1px solid gray;
+							padding: 3px;
 						}
 						&:nth-child(odd) {
 							background-color: #ededed;
@@ -568,11 +576,13 @@
 					font-size: 3rem;
 					background-color: #d1d1d1;
 					border: 1px solid gray;
+					padding: 3px;
 				}
 				td {
 					text-align: center;
 					font-size: 2rem;
 					border: 1px solid gray;
+					padding: 3px;
 				}
 				&:nth-child(odd) {
 					background-color: #ededed;
@@ -626,3 +636,22 @@
 }
 
 // <!-- CONTACTS STOP-->
+
+// ************************
+
+
+// MEDIA ADAPTABILITY START
+
+@media(max-width: 1200px) {  /*1170px*/
+
+}
+
+@media(max-width: 991px) {  /*970px*/
+
+}
+
+@media(max-width: 790px) {  /*750px*/
+
+}
+
+// MEDIA ADAPTABILITY STOP

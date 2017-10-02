@@ -5,12 +5,11 @@
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Exo+2&amp;subset=cyrillic" rel="stylesheet">
+	<link rel="shortcut icon" href="img/ac.ico" type="image/x-icon">
 	<title>as-foto.ru</title>
-
 	<script src="https://maps.api.2gis.ru/2.0/loader.js?pkg=full"></script>
 	<script type="text/javascript">
 		var map;
-
 		DG.then(function () {
 			map = DG.map('map', {
 				center: [45.028722, 41.973369],
@@ -59,12 +58,12 @@
 		<div class="menu col-lg-12">
 			<div class="menu-wrapper">
 				<ul class="menu-wrapper-list">
-					<li><a href="#">ПЕЧАТЬ ФОТО</a></li>
-					<li><a href="#">ФОТО НА ДОКУМЕНТЫ</a></li>
-					<li><a href="#">ФОТОСУВЕНИРНАЯ ПРОДУКЦИЯ</a></li>
-					<li><a href="#">ФОТОТОВАРЫ</a></li>
-					<li><a href="#">ФОТОУСЛУГИ</a></li>
-					<li><a href="#">КОНТАКТЫ</a></li>
+					<li><a href="#printphoto">ПЕЧАТЬ ФОТО</a></li>
+					<li><a href="#documentphoto">ФОТО НА ДОКУМЕНТЫ</a></li>
+					<li><a href="#souvenirproduct">ФОТОСУВЕНИРНАЯ ПРОДУКЦИЯ</a></li>
+					<li><a href="#photogoods">ФОТОТОВАРЫ</a></li>
+					<li><a href="#photoservices">ФОТОУСЛУГИ</a></li>
+					<li><a href="#contacts">КОНТАКТЫ</a></li>
 				</ul>
 			</div>
 		</div>
@@ -147,7 +146,7 @@
 <div class="container-fluid">
 	<div class="row">
 		<div class="photoprint col-lg-12">
-			<div class="photoprint-price col-lg-7">
+			<div class="photoprint-price col-lg-7" id="printphoto">
 				<h1>Высококачественная печать фотографий</h1>
 
 				<table class="photoprint-price-table">
@@ -181,6 +180,34 @@
 					</tr>
 				</table>
 				<span><i>* При заказе свыше 300шт. фото формата 10х15, цена за штуку <b>8руб.</b></i></span>
+				<h1>Широкоформатная печать фотографий</h1>
+				<table class="photoprint-price-table">
+					<tr>
+						<th>Формат/Бумага</th>
+						<th>Матовая</th>
+						<th>Сатин</th>
+						<th>Холст</th>
+					</tr>
+					<tr>
+						<td>40х60 см</td>
+						<td>200 руб.</td>
+						<td>300 руб.</td>
+						<td>750 руб.</td>
+					</tr>
+					<tr>
+						<td>60х80 см</td>
+						<td>400 руб.</td>
+						<td>650 руб.</td>
+						<td>1350 руб.</td>
+					</tr>
+					<tr>
+						<td>60х90 см</td>
+						<td>450 руб.</td>
+						<td>700 руб.</td>
+						<td>1450 руб.</td>
+					</tr>
+
+				</table>
 			</div>
 			<div class="photoprint-pict col-lg-5">
 				<img src="img/photo.png">
@@ -202,7 +229,7 @@
 				<img src="img/docphotoimg.png">
 			</div>
 
-			<div class="docphoto-price col-lg-7">
+			<div class="docphoto-price col-lg-7" id="documentphoto">
 				<h1>Фото на документы</h1>
 				<table class="docphoto-price-table">
 					<tr>
@@ -210,24 +237,12 @@
 						<th>Цена</th>
 					</tr>
 					<tr>
-						<td>Индивидуальная работа(после первых 10 минут)</td>
-						<td>40руб.</td>
-					</tr>
-					<tr>
-						<td>Кадрирование</td>
-						<td>5 руб.</td>
-					</tr>
-					<tr>
 						<td>Съемка</td>
 						<td>50 руб.</td>
 					</tr>
 					<tr>
 						<td>Ретушь</td>
-						<td>20 руб.</td>
-					</tr>
-					<tr>
-						<td>Раскладка</td>
-						<td>60 руб.</td>
+						<td><b>бесплатно</b></td>
 					</tr>
 					<tr>
 						<td>Замена фона</td>
@@ -252,7 +267,7 @@
 
 <div class="container-fluid">
 	<div class="row">
-		<div class="souvenir col-lg-12">
+		<div class="souvenir col-lg-12" id="souvenirproduct">
 			<h1>ФОТОСУВЕНИРНАЯ ПРОДУКЦИЯ</h1>
 
 			<div class="souvenir-block1 col-lg-12">
@@ -284,7 +299,9 @@
 				</div>
 				<div class="souvenir-block2-puzzles col-lg-4">
 					<img class="center" src="img/souvenir/puzzle/puzzles.png">
-					<span class="souvenir-span">Фотопечать на пазлах - 350/450 руб.</span>
+					<span class="souvenir-span">Фотопечать на пазлах</span>
+					<span class="souvenir-span">на картонной основе - 350 руб.</span>
+					<span class="souvenir-span">на магнитной основе - 400 руб.</span>
 				</div>
 			</div>
 			<div class="souvenir-block3 col-lg-12">
@@ -302,7 +319,7 @@
 				</div>
 				<div class="souvenir-block3-cover col-lg-4">
 					<img class="center" src="img/souvenir/cover/covers.png">
-					<span class="souvenir-span">Фотопечать на ковриках для мыши - 250р.</span>
+					<span class="souvenir-span">Фотопечать на ковриках для мыши - 260р.</span>
 				</div>
 			</div>
 		</div>
@@ -317,7 +334,7 @@
 
 <div class="container-fluid">
 	<div class="row">
-		<div class="photoproduct col-lg-12">
+		<div class="photoproduct col-lg-12" id="photogoods">
 			<h1>ФОТО ТОВАРЫ</h1>
 			<h2>Фото рамки</h2>
 			<div class="photoproduct-framesone col-lg-12">
@@ -389,7 +406,7 @@
 
 <div class="container-fluid">
 	<div class="row">
-		<div class="photoservices col-lg-12">
+		<div class="photoservices col-lg-12" id="photoservices">
 			<h1>ФОТОУСЛУГИ</h1>
 			<table class="photoservices-table">
 				<tr>
@@ -406,7 +423,7 @@
 				</tr>
 				<tr>
 					<td>Съемка</td>
-					<td>50 руб.</td>
+					<td>60 руб.</td>
 				</tr>
 				<tr>
 					<td>Ретушь</td>
@@ -495,11 +512,30 @@
 				</tr>
 				<tr>
 					<td>ОЦИФРОВКА ВИДЕО(в стоимость входит: оцифровка, DVD-диск,  DVD-бокс)</td>
-					<td>130 руб.</td>
+					<td>130 руб./час</td>
 				</tr>
 				<tr>
 					<td>Документальное фото(съемка/обработка + отпечаток)</td>
 					<td>150 руб.</td>
+				</tr>
+				<tr>
+					<td colspan="2"><b>Ламинирование</b></td>
+				</tr>
+				<tr>
+					<td>А3</td>
+					<td>70 руб.</td>
+				</tr>
+				<tr>
+					<td>А4</td>
+					<td>30 руб.</td>
+				</tr>
+				<tr>
+					<td>А5</td>
+					<td>30 руб.</td>
+				</tr>
+				<tr>
+					<td>А6</td>
+					<td>20 руб.</td>
 				</tr>
 				<tr>
 					<td colspan="2"><b>Печать фотографий</b></td>
@@ -531,6 +567,45 @@
 				<tr>
 					<td>Цветная печать А3</td>
 					<td>30 руб.</td>
+				</tr>
+				<tr>
+					<td colspan="2"><b>Широкоформатная печать</b></td>
+				</tr>
+				<tr>
+					<td>40x60 см(матовая)</td>
+					<td>200 руб.</td>
+				</tr>
+				<tr>
+					<td>40x60 см(сатин)</td>
+					<td>300 руб.</td>
+				</tr>
+				<tr>
+					<td>40x60 см(холст)</td>
+					<td>750 руб.</td>
+				</tr>
+				<tr>
+					<td>60x80 см(матовая)</td>
+					<td>400 руб.</td>
+				</tr>
+				<tr>
+					<td>60x80 см(сатин)</td>
+					<td>650 руб.</td>
+				</tr>
+				<tr>
+					<td>60x80 см(холст)</td>
+					<td>1350 руб.</td>
+				</tr>
+				<tr>
+					<td>60x90 см(матовая)</td>
+					<td>450 руб.</td>
+				</tr>
+				<tr>
+					<td>60x90 см(сатин)</td>
+					<td>700 руб.</td>
+				</tr>
+				<tr>
+					<td>60x90 см(холст)</td>
+					<td>1450 руб.</td>
 				</tr>
 			</table>
 		</div>
@@ -572,7 +647,7 @@
 
 
 			</div>
-			<div class="contacts-communications col-lg-12">
+			<div class="contacts-communications col-lg-12" id="contacts">
 				<div class="contacts-communications-namecompany col-lg-4">
 					<span>ИП Мустафаев А. Г.</span>
 					<span>фотосалон "АС-фото"</span>
