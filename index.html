@@ -8,17 +8,7 @@
 	<link rel="shortcut icon" href="img/ac.ico" type="image/x-icon">
 	<title>as-foto.ru</title>
 	<script src="https://maps.api.2gis.ru/2.0/loader.js?pkg=full"></script>
-	<script type="text/javascript">
-		var map;
-		DG.then(function () {
-			map = DG.map('map', {
-				center: [45.028722, 41.973369],
-				zoom: 18
-			});
-
-			DG.marker([45.028780, 41.973340]).addTo(map).bindPopup('г. Ставрополь, Серова, 274а 2 этаж, АС-фото, фотосалон! +7 (9624) 400-107  E-mail: as_foto@mail.ru');
-		});
-	</script>
+	<script src="js/map.js" type="text/javascript" defer></script>
 
 </head>
 <body>
