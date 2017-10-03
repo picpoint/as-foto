@@ -23,7 +23,7 @@
 
 // <!-- HEADER  START-->
 .header {
-	//border: @border-marker;
+	border: @border-marker;
 	height: 100px;
 	font-family: @font-exo2;
 		&-wrapper {
@@ -33,12 +33,13 @@
 			//border: @border-marker;
 				&-logo {
 					border: @border-marker;
-					display: flex;
+					display: block;
 					//align-items: center;
 					justify-content: center;
 					height: 100%;
 						img {
-							width: 70%;
+							//width: 70%;
+							height: 100%;
 							border: @border-marker;
 						}
 				}
@@ -667,22 +668,47 @@
 }
 
 @media(max-width: 991px) {  /*970px*/
+	.header {
+		&-wrapper {
+			&-logo {
+			}
+			&-contacts {
+				&-phone {
+					span {
+						font-size: 1.7rem;
+					}
+				}
+				&-email {
+					span {
+						font-size: 1.7rem;
+					}
+				}
+			}
+		}
+	}
 
 }
 
 @media(max-width: 790px) {  /*750px*/
 	.header {
 		&-wrapper {
-			//height: 200px;
+			height: 200px;
+			&-logo {
+				height: 200px;
+				display: block;
+				margin: 0 auto;
+			}
 			&-contacts {
+				display: block;
+				margin: 0 auto;
 				&-phone {
 					span {
-						//font-size: 1.7rem;
+						font-size: 1.7rem;
 					}
 				}
 				&-email {
 					span {
-						//font-size: 1.7rem;
+						font-size: 1.7rem;
 					}
 				}
 			}

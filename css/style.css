@@ -14,6 +14,7 @@
   font-size: 2.5rem;
 }
 .header {
+  border: 1px solid #ff0000;
   height: 100px;
   font-family: 'Exo 2', sans-serif;
 }
@@ -24,16 +25,14 @@
 }
 .header-wrapper-logo {
   border: 1px solid #ff0000;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: block;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   height: 100%;
 }
 .header-wrapper-logo img {
-  width: 70%;
+  height: 100%;
   border: 1px solid #ff0000;
 }
 .header-wrapper-contacts {
@@ -540,7 +539,31 @@
 }
 @media (max-width: 991px) {
   /*970px*/
+  .header-wrapper-contacts-phone span {
+    font-size: 1.7rem;
+  }
+  .header-wrapper-contacts-email span {
+    font-size: 1.7rem;
+  }
 }
 @media (max-width: 790px) {
   /*750px*/
+  .header-wrapper {
+    height: 200px;
+  }
+  .header-wrapper-logo {
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+  }
+  .header-wrapper-contacts {
+    display: block;
+    margin: 0 auto;
+  }
+  .header-wrapper-contacts-phone span {
+    font-size: 1.7rem;
+  }
+  .header-wrapper-contacts-email span {
+    font-size: 1.7rem;
+  }
 }
