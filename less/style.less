@@ -23,7 +23,7 @@
 
 // <!-- HEADER  START-->
 .header {
-	border: @border-marker;
+	//border: @border-marker;
 	height: 100px;
 	font-family: @font-exo2;
 		&-wrapper {
@@ -32,15 +32,15 @@
 			margin: 0 auto;
 			//border: @border-marker;
 				&-logo {
-					border: @border-marker;
+					//border: @border-marker;
 					display: block;
 					//align-items: center;
-					justify-content: center;
+					//justify-content: center;
 					height: 100%;
 						img {
 							//width: 70%;
 							height: 100%;
-							border: @border-marker;
+							//border: @border-marker;
 						}
 				}
 				&-contacts {
@@ -51,7 +51,7 @@
 						display: flex;
 						align-items: center;
 						justify-content: flex-end;
-						border: @border-marker;
+						//border: @border-marker;
 						height: 50%;
 						img {
 							height: 80%;
@@ -64,7 +64,7 @@
 						}
 					}
 					&-email {
-						border: @border-marker;
+						//border: @border-marker;
 						height: 50%;
 						display: flex;
 						align-items: center;
@@ -689,26 +689,102 @@
 
 }
 
-@media(max-width: 790px) {  /*750px*/
+@media(max-width: 750px) {  /*750px*/
 	.header {
+		height: auto;
 		&-wrapper {
-			height: 200px;
+			height: auto;
+			display: flex;
+			flex-direction: column;
 			&-logo {
-				height: 200px;
 				display: block;
+				height: 100px;
+				width: 100%;
 				margin: 0 auto;
+					img {
+						width: 100%;
+						display: block;
+					}
 			}
 			&-contacts {
-				display: block;
+				//display: block;
+				height: 100px;
+				width: 100%;
 				margin: 0 auto;
 				&-phone {
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					height: 50px;
+					width: 100%;
+					margin: 0 auto;
 					span {
 						font-size: 1.7rem;
 					}
 				}
 				&-email {
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					height: 50px;
+					width: 100%;
+					margin: 0 auto;
 					span {
 						font-size: 1.7rem;
+					}
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: 540px) {
+	.header {
+		height: auto;
+		&-wrapper {
+			height: auto;
+			width: 100%;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			&-logo {
+				//display: flex;
+				//justify-content: center;
+				//align-content: center;
+				img {
+					height: 100%;
+					//width: 100%;
+					//display: block;
+				}
+			}
+			&-contacts {
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+				height: auto;
+				text-align: center;
+				&-phone {
+					height: auto;
+					width: 100%;
+					//text-align: center;
+					img {
+						display: none;
+					}
+					span {
+						font-size: 2rem;
+					}
+				}
+				&-email {
+					height: auto;
+					width: 100%;
+					//text-align: center;
+					img {
+						display: none;
+					}
+					span {
+						font-size: 2rem;
 					}
 				}
 			}
