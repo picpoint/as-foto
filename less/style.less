@@ -649,25 +649,23 @@
 
 // MEDIA ADAPTABILITY START
 
-/*@media (max-width: 1160px) {
-	.header {
-		&-wrapper {
-			&-contacts {
-				&-phone {
-					span {
-						font-size: 1.7rem;
-					}
+@media (max-width: 1500px) {
+	.docphoto {
+		&-pict {
+			width: 50%;
+				img {
+					width: 100%;
 				}
-				&-email {
-					span {
-						font-size: 1.7rem;
-					}
+		}
+		&-price {
+			width: 50%;
+				&-table {
+					width: 80%;
 				}
-			}
 		}
 	}
 }
-*/
+
 
 @media(max-width: 1200px) {  /*1170px*/
 
@@ -736,7 +734,27 @@
 			}
 		}
 	}
-
+	.photoprint {
+		&-pict {
+			display: none;
+		}
+	}
+	/*
+	.docphoto {
+		&-pict {
+			width: 50%;
+			img {
+				width: 100%;
+			}
+		}
+		&-price {
+			width: 50%;
+			&-table {
+				width: 80%;
+			}
+		}
+	}
+	*/
 }
 
 @media (max-width: 950px) {
@@ -826,6 +844,24 @@
 			}
 		}
 	}
+	.photoprint {
+		h1 {
+			font-size: 3rem;
+		}
+		table {
+			th {
+				font-size: 2rem;
+			}
+			td {
+				font-size: 1.5rem;
+			}
+		}
+		/*
+		&-price {
+
+		}
+		*/
+	}
 }
 
 @media (max-width: 540px) {
@@ -892,6 +928,11 @@
 	}
 	.slider {
 		display: none;
+	}
+	.photoprint {
+		h1 {
+			font-size: 2.5rem;
+		}
 	}
 }
 

@@ -514,25 +514,20 @@
 .contacts-communications-reginfo {
   height: 100%;
 }
-/*@media (max-width: 1160px) {
-	.header {
-		&-wrapper {
-			&-contacts {
-				&-phone {
-					span {
-						font-size: 1.7rem;
-					}
-				}
-				&-email {
-					span {
-						font-size: 1.7rem;
-					}
-				}
-			}
-		}
-	}
+@media (max-width: 1500px) {
+  .docphoto-pict {
+    width: 50%;
+  }
+  .docphoto-pict img {
+    width: 100%;
+  }
+  .docphoto-price {
+    width: 50%;
+  }
+  .docphoto-price-table {
+    width: 80%;
+  }
 }
-*/
 @media (max-width: 1200px) {
   /*1170px*/
   .menu {
@@ -593,6 +588,25 @@
   .menu-wrapper-list li a {
     margin: 0 5px;
   }
+  .photoprint-pict {
+    display: none;
+  }
+  /*
+	.docphoto {
+		&-pict {
+			width: 50%;
+			img {
+				width: 100%;
+			}
+		}
+		&-price {
+			width: 50%;
+			&-table {
+				width: 80%;
+			}
+		}
+	}
+	*/
 }
 @media (max-width: 950px) {
   .menu-wrapper-list li a {
@@ -690,6 +704,22 @@
     height: 50px;
     width: 100%;
   }
+  .photoprint {
+    /*
+		&-price {
+
+		}
+		*/
+  }
+  .photoprint h1 {
+    font-size: 3rem;
+  }
+  .photoprint table th {
+    font-size: 2rem;
+  }
+  .photoprint table td {
+    font-size: 1.5rem;
+  }
 }
 @media (max-width: 540px) {
   .header {
@@ -754,5 +784,8 @@
   }
   .slider {
     display: none;
+  }
+  .photoprint h1 {
+    font-size: 2.5rem;
   }
 }
