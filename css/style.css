@@ -752,4 +752,7 @@
   .header-wrapper-contacts-email span {
     font-size: 2rem;
   }
+  .slider {
+    display: none;
+  }
 }
