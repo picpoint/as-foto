@@ -246,7 +246,6 @@
   background-color: #ededed;
 }
 .souvenir {
-  height: auto;
   font-family: 'Exo 2', sans-serif;
   -webkit-box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.7);
           box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.7);
@@ -260,69 +259,78 @@
   height: auto;
   text-align: center;
 }
+.souvenir-block1 span {
+  font-size: 2rem;
+}
 .souvenir-block1-cup1 {
   height: 400px;
 }
 .souvenir-block1-cup1 img {
-  height: 100%;
+  height: 80%;
 }
 .souvenir-block1-cup2 {
   height: 400px;
 }
 .souvenir-block1-cup2 img {
-  height: 100%;
+  height: 80%;
 }
 .souvenir-block1-pillow {
   height: 400px;
 }
 .souvenir-block1-pillow img {
-  height: 100%;
+  height: 80%;
 }
 .souvenir-block2 {
   height: auto;
   margin-top: 100px;
   text-align: center;
 }
+.souvenir-block2 span {
+  font-size: 2rem;
+}
 .souvenir-block2-case {
   height: 400px;
 }
 .souvenir-block2-case img {
-  height: 100%;
+  height: 80%;
 }
 .souvenir-block2-trinket {
   height: 400px;
 }
 .souvenir-block2-trinket img {
-  height: 100%;
+  height: 80%;
 }
 .souvenir-block2-puzzles {
   height: 400px;
 }
 .souvenir-block2-puzzles img {
-  height: 100%;
+  height: 80%;
 }
 .souvenir-block3 {
   height: auto;
   margin: 100px 0;
   text-align: center;
 }
+.souvenir-block3 span {
+  font-size: 2rem;
+}
 .souvenir-block3-magnits {
   height: 400px;
 }
 .souvenir-block3-magnits img {
-  height: 100%;
+  height: 80%;
 }
 .souvenir-block3-shar {
   height: 400px;
 }
 .souvenir-block3-shar img {
-  height: 100%;
+  height: 80%;
 }
 .souvenir-block3-cover {
   height: 400px;
 }
 .souvenir-block3-cover img {
-  height: 100%;
+  height: 80%;
 }
 .photoproduct {
   height: auto;
@@ -548,6 +556,10 @@
   .menu-wrapper-list li a {
     height: 50px;
   }
+  .souvenir {
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
 }
 @media (max-width: 991px) {
   /*970px*/
@@ -591,22 +603,22 @@
   .photoprint-pict {
     display: none;
   }
-  /*
-	.docphoto {
-		&-pict {
-			width: 50%;
-			img {
-				width: 100%;
-			}
-		}
-		&-price {
-			width: 50%;
-			&-table {
-				width: 80%;
-			}
-		}
-	}
-	*/
+  .docphoto-pict {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+  }
+  .docphoto-pict img {
+    width: 100%;
+  }
+  .docphoto-price {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+  }
+  .docphoto-price-table {
+    width: 80%;
+  }
 }
 @media (max-width: 950px) {
   .menu-wrapper-list li a {
@@ -787,5 +799,25 @@
   }
   .photoprint h1 {
     font-size: 2.5rem;
+  }
+  .docphoto {
+    /*
+		&-price {
+			display: block;
+			margin: 0 auto;
+			width: 100%;
+			&-table {
+				width: 80%;
+			}
+		}
+		*/
+  }
+  .docphoto-pict {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+  }
+  .docphoto-pict img {
+    width: 100%;
   }
 }
