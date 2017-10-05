@@ -114,6 +114,9 @@
 					display: flex;
 					align-items: center;
 					list-style-type: none;
+					//border-left: 1px solid white;
+					//border-right: 1px solid white;
+					//background-color: rgba(255, 255, 255, 0.3);
 					//border: @border-marker;
 					height: 100%;
 					a {
@@ -801,12 +804,23 @@
 	}
 
 	.menu {
+		//height: auto;
 		&-wrapper {
+			height: auto;
 			&-list {
+				display: flex;
+				flex-direction: column;
+				height: auto;
 				li {
+					height: 1px;
+					margin: 30px 0;
+					width: 100%;
 					a {
-						font-size: 1.5rem;
-						padding: 0 1px;
+						justify-content: center;
+						font-size: 1.7rem;
+						height: 50px;
+						width: 100%;
+						//padding: 50px 20px;
 					}
 				}
 			}
@@ -861,6 +875,16 @@
 					}
 					span {
 						font-size: 2rem;
+					}
+				}
+			}
+		}
+	}
+	.menu {
+		&-wrapper {
+			&-list {
+				li {
+					a {
 					}
 				}
 			}
