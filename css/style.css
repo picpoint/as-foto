@@ -533,6 +533,9 @@
 .contacts-communications-reginfo {
   height: 100%;
 }
+.contacts-noaferts span {
+  font-size: 1.5rem;
+}
 @media (max-width: 1500px) {
   .docphoto-pict {
     width: 50%;
@@ -760,13 +763,6 @@
     height: 50px;
     width: 100%;
   }
-  .photoprint {
-    /*
-		&-price {
-
-		}
-		*/
-  }
   .photoprint h1 {
     font-size: 3rem;
   }
@@ -859,18 +855,6 @@
   }
   .photoprint h1 {
     font-size: 2.5rem;
-  }
-  .docphoto {
-    /*
-		&-price {
-			display: block;
-			margin: 0 auto;
-			width: 100%;
-			&-table {
-				width: 80%;
-			}
-		}
-		*/
   }
   .docphoto-pict {
     display: block;
